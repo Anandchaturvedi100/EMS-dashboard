@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import { login } from "../../store/store"; 
 
 export default function Login() {
-  const [email, setEmail] = useState('admin@ems.com');
-  const [password, setPassword] = useState('admin123');
+  const [email, setEmail] = useState('anand@kumar.com');
+  const [password, setPassword] = useState('anand123');
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
